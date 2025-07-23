@@ -2,7 +2,18 @@
 
 body {
     background-image: url('../imgs/background.png');
-    padding: 0 56px 0 56px;
+    background-size: 1728px 1500px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-color: rgba(0,0,0,0.5);
+background-blend-mode: multiply;
+background-blend-mode: overlay;
+background-blend-mode: screen;
+
+    padding: 0 56px 0 56px; 
+
+
+
 }
 
 /* #region header */
@@ -136,6 +147,7 @@ nav>.buttons>.bag {
     display: flex;
     justify-content: space-between;
     height: 100%;
+    /* margin-top: 50px; */
 }
 
 .main_header>.text {
@@ -147,6 +159,9 @@ nav>.buttons>.bag {
 }
 
 /* #region text */
+.main_header>.text>.description{
+    margin-bottom:217px;
+}
 .main_header>.text>.description>h1 {
     width: 824px;
     height: 143px;
@@ -206,16 +221,59 @@ nav>.buttons>.bag {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 409px;
     height: 237px;
     opacity: 100%;
-    color: rgba(255, 255, 255, 0.05); /* لو للنص */
-    background-color: rgba(255, 255, 255, 0.05); /* لو خلفية */
-    /* display: none; */
-}
-.main_header>.comments>.comment_user {
+    background-color: #ffffff10;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border: #FFFFFF 1px solid;
+    /* padding: 20px; */
+    flex-shrink: 0;
+flex-grow: 0;
 
 }
+.main_header>.text>.comments>.comment_user{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 409px;
+    height: 237px; */
+
+    opacity: 100%;
+}
+.main_header>.text>.comments>.comment_user>img{
+width: 46px;
+height: 46px;
+border-radius: 50%;
+}
+.main_header>.text>.comments>.comment_user>div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+}
+.main_header>.text>.comments>.comment_user>div>h3 {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.main_header>.text>.comments>.comment_user>div>img {
+    width: 103.5px;
+    height: 15px;
+}
+.main_header>.text>.comments>.comment>p {
+    font-size: 17px;
+    color: #FFFFFF;
+    opacity: 75%;
+    font-family: 'Inter', sans-serif;
+    width: 341px;
+    margin: 0;
+    margin-top: 22px;
+}
+
 
 
 /* #endregion header */
