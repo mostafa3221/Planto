@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-image: url('../imgs/background.png');
+    padding:  0 56px 0 56px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+/* logo */
+nav>.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav>.logo>img {
+    width: 48px;
+    height: 48px;
+}
+
+nav>.logo>span {
+    color: #FFFFFF;
+    width: 99px;
+    height: 34px;
+    opacity: 0.75;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+nav>.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 545px;
+    height: 29px;
+}
+
+nav>.links>.Home {
+    width: 68px;
+    height: 29px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+.select-wrapper {
+    position: relative;
+    width: 160px;
+}
+
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 6px 30px 6px 12px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='12' viewBox='0 0 24 24' width='12' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+.custom-select:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+
+
+nav>.links>.More {
+    width: 95px;
+    height: 29px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+
+}
+
+nav>.links>.Contact {
+    width: 92px;
+    height: 29px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+nav>.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    height: 26px;
+}
+
+nav>.buttons>.serch {
+    width: 26px;
+    height: 26px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+
+nav>.buttons>.bag {
+    width: 26px;
+    height: 26px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+    border: none;
+}
