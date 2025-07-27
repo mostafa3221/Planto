@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Calathea plant",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": 309,
+        "image": "imgs/plant_1.png"
+    },
+    {
+        "id": 2,
+        "title": "Desk plant",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": 359,
+        "image": "imgs/plant_2.png"
+    },
+    {
+        "id": 3,
+        "title": "Calathea ai plant",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": 399,
+        "image": "imgs/plant_3.png"
+    },
+    {
+        "id": 4,
+        "title": "Cal 874 plant",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": 259,
+        "image": "imgs/plant_4.png"
+    },
+    {
+        "id": 5,
+        "title": "Show plant",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": 759,
+        "image": "imgs/plant_5.png"
+    },
+    {
+        "id": 6,
+        "title": "Calat O2 plant",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": 659,
+        "image": "imgs/plant_6.png"
+    }
+]

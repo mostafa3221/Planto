@@ -34,3 +34,31 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+
+
+fetch('./../products.json')
+    .then(response => response.json())
+    .then(data => {
+        const container = document.querySelector('.products');
+        console.log(container);
+
+            data.forEach(product => {
+                container.innerHTML += `
+                <div class="product">
+                <img src="${product.image}" alt="${product.title}" />
+                <h3>${product.title}</h3>
+                <p>${product.description}</p>
+                <div class="box_buttons">
+                    <span>Rs. ${product.price}/-</span>
+                    <button class="bag"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+            </div>`
+                
+            });
+        
+
+    })
+    .catch(error => {
+        console.error('Error fetching products:', error);
+    });
