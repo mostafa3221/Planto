@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8553e9
 button {
     cursor: pointer;
 }
@@ -28,11 +32,29 @@ header {
 }
 
 /* #region navigation */
+<<<<<<< HEAD
+=======
+=======
+body {
+    background-image: url('../imgs/background.png');
+    padding:  0 56px 0 56px;
+}
+
+>>>>>>> 6f1a2ed ()
+>>>>>>> c8553e9
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     height: 45px;
+=======
+<<<<<<< HEAD
+    height: 45px;
+=======
+    height: 50px;
+>>>>>>> 6f1a2ed ()
+>>>>>>> c8553e9
     width: 100%;
 }
 
@@ -146,18 +168,29 @@ nav>.buttons>.bag {
     font-family: 'Inter', sans-serif;
     background-color: transparent;
     border: none;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8553e9
 }
 
 /* #endregion */
 .main_header {
+<<<<<<< HEAD
     margin-top: 155px;
+=======
+    margin-top: 70px;
+>>>>>>> c8553e9
     display: flex;
     justify-content: space-between;
     height: 100%;
 }
 
+<<<<<<< HEAD
 
 /* #region text */
+=======
+>>>>>>> c8553e9
 .main_header>.text {
     width: 899px;
     height: 279px;
@@ -166,6 +199,10 @@ nav>.buttons>.bag {
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
+=======
+/* #region text */
+>>>>>>> c8553e9
 .main_header>.text>.description {
     margin-bottom: 117px;
 }
@@ -192,7 +229,10 @@ nav>.buttons>.bag {
 
 .main_header>.text>.description>.buttons_header {
     display: flex;
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+>>>>>>> c8553e9
 }
 
 .main_header>.text>.description>.buttons_header>.explore {
@@ -253,7 +293,10 @@ nav>.buttons>.bag {
     height: 237px; */
     margin-left: 50px;
     opacity: 100%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> c8553e9
 }
 
 .main_header>.text>.comments>.comment_user>img {
@@ -435,17 +478,26 @@ nav>.buttons>.bag {
 
 }
 
+<<<<<<< HEAD
 .Our_Trendy_plants_box,
 .Our_Trendy_plants_box2 {
     width: 100%;
     height: 526px;
     display: flex;
     justify-content: space-between;
+=======
+.Our_Trendy_plants_box,.Our_Trendy_plants_box2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 526px;
+>>>>>>> c8553e9
     border-radius: 150px;
     border: 1px solid #ffffff;
     background-color: #ffffff10;
     backdrop-filter: blur(5px);
 }
+<<<<<<< HEAD
 
 .Our_Trendy_plants_box>.box_img,
 .Our_Trendy_plants_box2>.box_img {
@@ -459,11 +511,25 @@ nav>.buttons>.bag {
 }
 
 .Our_Trendy_plants_box>.box_text {
+=======
+.Our_Trendy_plants_box > .box_img,
+.Our_Trendy_plants_box2 > .box_img {
+  position: relative;
+}
+
+
+.Our_Trendy_plants_box>.box_img>img{
+    position: absolute;
+    top: -130px;
+}
+.Our_Trendy_plants_box>.box_text{
+>>>>>>> c8553e9
     margin-top: 128px;
     margin-bottom: 128px;
     margin-right: 152px;
     width: 621px;
 }
+<<<<<<< HEAD
 
 .Our_Trendy_plants_box>.box_text>h3,
 .Our_Trendy_plants_box2>.box_text>h3 {
@@ -499,6 +565,38 @@ nav>.buttons>.bag {
 
 .Our_Trendy_plants_box>.box_text>.box_buttons>.buy,
 .Our_Trendy_plants_box2>.box_text>.box_buttons>.buy {
+=======
+.Our_Trendy_plants_box>.box_text>h3,
+.Our_Trendy_plants_box2>.box_text>h3{
+    font-size: 45px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.Our_Trendy_plants_box>.box_text>p,
+.Our_Trendy_plants_box2>.box_text>p{
+    color: #ffffff;
+    font-weight: bold;
+    /* width: 616px; */
+    font-size: 20px;
+}
+.Our_Trendy_plants_box>.box_text>span,
+.Our_Trendy_plants_box2>.box_text>span{
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+}
+.Our_Trendy_plants_box>.box_text>.box_buttons,
+.Our_Trendy_plants_box2>.box_text>.box_buttons{
+    display: flex;
+    gap: 23px;
+    margin-top: 24px;
+}
+.Our_Trendy_plants_box>.box_text>.box_buttons>.buy,
+.Our_Trendy_plants_box2>.box_text>.box_buttons>.buy{
+>>>>>>> c8553e9
     padding: 15px 35px;
     font-size: 24px;
     color: #ffffff;
@@ -506,14 +604,20 @@ nav>.buttons>.bag {
     border: 1px solid #ffffff;
     border-radius: 20px;
 }
+<<<<<<< HEAD
 
 .Our_Trendy_plants_box>.box_text>.box_buttons>.bag,
 .Our_Trendy_plants_box2>.box_text>.box_buttons>.bag {
+=======
+.Our_Trendy_plants_box>.box_text>.box_buttons>.bag,
+.Our_Trendy_plants_box2>.box_text>.box_buttons>.bag{
+>>>>>>> c8553e9
     font-size: 24px;
     padding: 15px;
     color: #ffffff;
     background-color: transparent;
     border: 1px solid #ffffff;
+<<<<<<< HEAD
     border-radius: 50%;
     flex-shrink: 0;
 }
@@ -548,10 +652,41 @@ nav>.buttons>.bag {
     display: flex;
     flex-direction: column;
     align-items: center;
+=======
+    border-radius:50%;
+    flex-shrink: 0;
+    }
+
+.Our_Trendy_plants_box2{
+    margin-top: 180px;
+    flex-direction: row-reverse;
+}
+.Our_Trendy_plants_box2>.box_img{
+    position: relative;
+}
+.Our_Trendy_plants_box2>.box_img>img{
+    position: absolute;
+    width: 400px;
+    top: -130px;
+    right: 100px;
+}
+.Our_Trendy_plants_box2>.box_text{
+    margin-top: 128px;
+    margin-bottom: 128px;
+    margin-left: 152px;
+    width: 621px;
+}
+/* #endregion Our_Trendy_plants */
+.Our_Top_Selling{
+display: flex;
+flex-direction: column;
+align-items: center;
+>>>>>>> c8553e9
     justify-content: center;
     text-align: center;
     margin-top: 200px;
 }
+<<<<<<< HEAD
 
 .Our_Top_Selling>div {
     position: relative;
@@ -559,12 +694,20 @@ nav>.buttons>.bag {
 }
 
 .Our_Top_Selling>div>h2 {
+=======
+.Our_Top_Selling>div{
+    position: relative;
+    
+}
+.Our_Top_Selling>div>h2{
+>>>>>>> c8553e9
     font-size: 55px;
     color: #FFFFFF;
     margin-top: 0;
     font-weight: bold;
     margin: 0;
 }
+<<<<<<< HEAD
 
 .Our_Top_Selling>div>img {
     position: absolute;
@@ -581,6 +724,20 @@ nav>.buttons>.bag {
 }
 
 .Our_Top_Selling>.products {
+=======
+.Our_Top_Selling>div>img{
+    position: absolute;
+}
+.Our_Top_Selling>div>.abs_1{
+    top: 0;
+    right: -20px;
+}
+.Our_Top_Selling>div>.abs_2{
+    bottom: -12px;
+    left: -20px;
+}
+.Our_Top_Selling>.products{
+>>>>>>> c8553e9
     display: flex;
     justify-content: center;
     width: 100%;
@@ -589,19 +746,29 @@ nav>.buttons>.bag {
     gap: 19px;
     margin-top: 184px;
 }
+<<<<<<< HEAD
 
 .Our_Top_Selling>.products>.product {
     width: 512px;
     height: 600px;
     margin-bottom: 159px;
+=======
+.Our_Top_Selling>.products>.product{
+>>>>>>> c8553e9
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    width: 512px;
+    height: 640px;
+>>>>>>> c8553e9
     border-radius: 80px;
     border: 1px solid #ffffff;
     background-color: #ffffff10;
     backdrop-filter: blur(5px);
+<<<<<<< HEAD
 }
 
 .Our_Top_Selling>.products>.product>img {
@@ -1040,6 +1207,61 @@ nav>.buttons>.bag {
 @media (min-width: 993px) and (max-width: 1300px) {
     /* #region header */
     
+=======
+    margin-bottom: 159px;
+}
+    .Our_Top_Selling>.products>.product>img{
+        position: absolute;
+        top: -150px;
+        /* width: 40px; */
+    }
+    .Our_Top_Selling>.products>.product>h3{
+        margin-top: 300px;
+        margin-bottom: 36px;
+        font-size: 38px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    .Our_Top_Selling>.products>.product>p{
+        font-size: 24px;
+        width: 70%;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    .Our_Top_Selling>.products>.product>.box_buttons{
+
+        margin-top: 31px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Our_Top_Selling>.products>.product>.box_buttons>span{
+        font-size: 38px;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin: 0;
+    }
+    .Our_Top_Selling>.products>.product>.box_buttons>.bag{
+        font-size: 30px;
+        padding: 13px;
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+    }
+
+
+
+@media (max-width: 1300px) {
+
+    /* body{
+        display: none;
+    } */
+    img {
+        /* display: none; */
+    }
+
+    /* #region header */
+>>>>>>> c8553e9
     .main_header {
         margin-top: 30px;
     }
@@ -1072,8 +1294,12 @@ nav>.buttons>.bag {
 
     .main_header>.text>.comments {
         width: 300px;
+<<<<<<< HEAD
         height: 190px;
         margin-top: 30px
+=======
+        height: 150px;
+>>>>>>> c8553e9
     }
 
     .main_header>.text>.comments>.comment_user>div>h3 {}
@@ -1121,6 +1347,7 @@ nav>.buttons>.bag {
         padding: 10px 30px;
         font-size: 20px;
     }
+<<<<<<< HEAD
 
     /* #endregion header */
     /* #region Our_Trendy_plants */
@@ -1246,6 +1473,19 @@ nav>.buttons>.bag {
         font-size: 3em;
     }
     
+=======
+}
+
+@media (max-width: 992px) {
+    body {
+        /* display: none; */
+    }
+
+    .main_header>.text>.description>h1 {
+        font-size: 3em;
+    }
+
+>>>>>>> c8553e9
     .main_header>.text>.description>p {
         font-size: 0.8em;
     }
@@ -1255,12 +1495,20 @@ nav>.buttons>.bag {
         font-size: 1.5em;
         font-weight: 300;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> c8553e9
     .main_header>.text>.description>.buttons_header>div>.live-demo {
         font-size: 10px;
         padding: 10px;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> c8553e9
     .main_header>.text>.description>.buttons_header>div>span {
         font-size: 15px;
         font-weight: 300;
@@ -1271,6 +1519,7 @@ nav>.buttons>.bag {
         left: 170px;
         top: 10px;
         font-size: 25px;
+<<<<<<< HEAD
         
     }
     
@@ -1278,10 +1527,20 @@ nav>.buttons>.bag {
         font-size: 20px
     }
     
+=======
+
+    }
+
+    .main_header>.main_card>div>.title {
+        font-size: 20px
+    }
+
+>>>>>>> c8553e9
     .main_header>.main_card>div>.subtitle>p {
         margin-top: 10px;
         font-size: 25px;
     }
+<<<<<<< HEAD
     /* #endregion header */
     /* #region Our_Trendy_plants */
     .Our_Trendy_plants_box>.box_img>img {
@@ -1344,11 +1603,22 @@ nav>.buttons>.bag {
 /* #endregion Swiper */
 }
 @media (max-width: 767px) {
+=======
+}
+
+@media (max-width: 768px) {
+>>>>>>> c8553e9
     body {
         padding: 5px;
     }
 
+<<<<<<< HEAD
     
+=======
+    /* .main_header{
+        display: none
+    } */
+>>>>>>> c8553e9
     nav>.links {
         display: none;
     }
@@ -1521,4 +1791,14 @@ nav>.buttons>.bag {
         height: 200px;
         top: -90px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+
+/* #endregion header */
+=======
+}
+>>>>>>> 6f1a2ed ()
+>>>>>>> c8553e9
