@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Maln Josi",
+        "rating": 4.5,
+        "image": "./../imgs/maln-josi.jpg",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+    },
+    {
+        "name": "Alina Thakur",
+        "rating": 4.5,
+        "image": "./../imgs/alina-thakur.jpg",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+    },
+    {
+        "name": "Max Makvana",
+        "rating": 4.5,
+        "image": "./../imgs/max-makvana.jpg",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+    }
+]

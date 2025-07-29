@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+          <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- css -->
     <link rel="stylesheet" href="css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Planto</title>
 </head>
 
@@ -184,8 +189,88 @@
         </div>
 
      </section>
+
+     <!-- Customer Review -->
+      <section class="Customer_Review">
+        <div class="Customer_Review_titel">
+            <h2>Customer Review</h2>
+            <img src="imgs/abs_1.png" class="abs_1">
+            <img src="imgs/abs_2.png" class="abs_2">
+        </div>
+        <div class="Customer_Review_box">
+        </div>
+        </div>
+      </section>
+  <!-- Swiper -->
+   <section class="Swiper_section">
+    <div class="swiper_titel">
+            <h2>Customer Review</h2>
+            <img src="imgs/abs_1.png" class="abs_1">
+            <img src="imgs/abs_2.png" class="abs_2">
+        </div>
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+    </div>
+</div>
+
+<div class="swiper-pagination_continer">
+    <div class="swiper-pagination"></div>
+    
+</div>
+   </section>
+  
+
+
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="logo">
+                <img src="imgs/logo.png" alt="Planto Logo">
+                <span>Planto</span>
+            </div>
+            <p>Your trusted source for beautiful plants and expert gardening advice. Make your space greener with Planto.</p>
+        </div>
+
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <div class="subscribe-form">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+
     <!-- js -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

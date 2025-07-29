@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "We Have Small And Best O2 Plants Collection’s",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "buttonText": "Explore",
+    "image": "imgs/plant_1.png"
+  },
+  {
+    "id": 2,
+    "title": "Discover Indoor Green Magic Plants",
+    "description1": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "buttonText": "Explore",
+    "image": "imgs/plant_2.png"
+  },
+  {
+    "id": 3,
+    "title": "Stylish Natural Vibes For Your Home",
+    "description1": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description2": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.",
+    "buttonText": "Explore",
+    "image": "imgs/plant_3.png"
+  },
+  {
+    "id": 4,
+    "title": "Fresh O2 Boosters With Unique Design",
+    "description1": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "description2": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+    "buttonText": "Explore",
+    "image": "imgs/plant_4.png"
+  },
+  {
+    "id": 5,
+    "title": "Eco-Friendly Plant Choices for Modern Homes",
+    "description1": "Plants that suit your modern lifestyle with low maintenance and high air purification.",
+    "description2": "Bring nature closer while keeping your space clean and green.",
+    "buttonText": "Explore",
+    "image": "imgs/plant_5.png"
+  },
+  {
+    "id": 6,
+    "title": "Urban Jungle Style for Your Living Room",
+    "description1": "Turn any corner into a green escape with lush indoor plants.",
+    "description2": "Perfect combinations for light, color, and vibe.",
+    "buttonText": "Explore",
+    "image": "imgs/plant_6.png"
+  }
+]

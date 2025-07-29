@@ -37,11 +37,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-fetch('./../products.json')
+fetch('./../json/products.json')
     .then(response => response.json())
     .then(data => {
         const container = document.querySelector('.products');
-        console.log(container);
+        // console.log(container);
 
             data.forEach(product => {
                 container.innerHTML += `
@@ -62,3 +62,83 @@ fetch('./../products.json')
     .catch(error => {
         console.error('Error fetching products:', error);
     });
+
+
+fetch('./../json/testimonials.json')
+    .then(response => response.json())
+    .then(data => {
+        const user_comment = document.querySelector('.Customer_Review_box');
+
+        data.forEach(box => {  
+            user_comment.innerHTML += `
+                <div class="box">
+                    <div class="user">
+                        <img src="${box.image}" alt="${box.name}">
+                        <div class="user_details">
+                            <h3>${box.name}</h3>
+                            <img src="imgs/star.svg" alt="Rating stars">
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>${box.comment}</p>
+                    </div>
+                </div>
+            `;
+        });
+    })
+    .catch(error => {
+        console.error('Error fetching testimonials:', error);
+    });
+
+
+
+fetch('./../json/plants.json')
+    .then ( response => response.json())
+    .then (data => {
+        const swiperWrapper = document.querySelector('.swiper-wrapper')
+        const count = data.length;
+        console.log(count);
+        
+        data.forEach(swiper_slide => {
+            
+            swiperWrapper.innerHTML += `
+                <div class="swiper-slide swiper_slide">
+        <div class="img_swiper">
+            <img src="${swiper_slide.image}" alt="">
+        </div>
+        <div class="text_swiper">
+            <h3>${swiper_slide.title}</h3>
+            <p>${swiper_slide.description1}</p>
+            <p>${swiper_slide.description2}</p>
+            <div class="buttons_swiper">
+                <button>Explore</button>
+                <div>
+                        <div class="swiper-button-next"></div>
+                        <div class="num">
+                            <p class="num_of_slide">0${swiper_slide.id}/</p>
+                        <p class="num_of_all_slide">0${count}</p>
+                        </div>
+                        
+                        <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+        </div>
+      </div>
+            `
+        });
+        var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    }) 
+     

@@ -150,12 +150,14 @@ nav>.buttons>.bag {
 
 /* #endregion */
 .main_header {
-    margin-top: 70px;
+    margin-top: 155px;
     display: flex;
     justify-content: space-between;
     height: 100%;
 }
 
+
+/* #region text */
 .main_header>.text {
     width: 899px;
     height: 279px;
@@ -164,7 +166,6 @@ nav>.buttons>.bag {
     justify-content: space-between;
 }
 
-/* #region text */
 .main_header>.text>.description {
     margin-bottom: 117px;
 }
@@ -191,6 +192,7 @@ nav>.buttons>.bag {
 
 .main_header>.text>.description>.buttons_header {
     display: flex;
+    margin-top: 30px;
 }
 
 .main_header>.text>.description>.buttons_header>.explore {
@@ -251,6 +253,7 @@ nav>.buttons>.bag {
     height: 237px; */
     margin-left: 50px;
     opacity: 100%;
+
 }
 
 .main_header>.text>.comments>.comment_user>img {
@@ -432,62 +435,70 @@ nav>.buttons>.bag {
 
 }
 
-.Our_Trendy_plants_box,.Our_Trendy_plants_box2 {
-    display: flex;
-    justify-content: space-between;
+.Our_Trendy_plants_box,
+.Our_Trendy_plants_box2 {
     width: 100%;
     height: 526px;
+    display: flex;
+    justify-content: space-between;
     border-radius: 150px;
     border: 1px solid #ffffff;
     background-color: #ffffff10;
     backdrop-filter: blur(5px);
 }
-.Our_Trendy_plants_box > .box_img,
-.Our_Trendy_plants_box2 > .box_img {
-  position: relative;
+
+.Our_Trendy_plants_box>.box_img,
+.Our_Trendy_plants_box2>.box_img {
+    position: relative;
 }
 
 
-.Our_Trendy_plants_box>.box_img>img{
-    position: absolute;
+.Our_Trendy_plants_box>.box_img>img {
+    position: relative;
     top: -130px;
 }
-.Our_Trendy_plants_box>.box_text{
+
+.Our_Trendy_plants_box>.box_text {
     margin-top: 128px;
     margin-bottom: 128px;
     margin-right: 152px;
     width: 621px;
 }
+
 .Our_Trendy_plants_box>.box_text>h3,
-.Our_Trendy_plants_box2>.box_text>h3{
+.Our_Trendy_plants_box2>.box_text>h3 {
     font-size: 45px;
+    margin-bottom: 24px;
     color: #FFFFFF;
     font-family: 'Inter';
     font-weight: bold;
-    margin-bottom: 24px;
 }
+
 .Our_Trendy_plants_box>.box_text>p,
-.Our_Trendy_plants_box2>.box_text>p{
+.Our_Trendy_plants_box2>.box_text>p {
+    font-size: 20px;
     color: #ffffff;
     font-weight: bold;
     /* width: 616px; */
-    font-size: 20px;
 }
+
 .Our_Trendy_plants_box>.box_text>span,
-.Our_Trendy_plants_box2>.box_text>span{
-    color: #ffffff;
+.Our_Trendy_plants_box2>.box_text>span {
     font-size: 38px;
+    color: #ffffff;
     font-weight: bold;
     margin: 0;
 }
+
 .Our_Trendy_plants_box>.box_text>.box_buttons,
-.Our_Trendy_plants_box2>.box_text>.box_buttons{
+.Our_Trendy_plants_box2>.box_text>.box_buttons {
+    margin-top: 24px;
     display: flex;
     gap: 23px;
-    margin-top: 24px;
 }
+
 .Our_Trendy_plants_box>.box_text>.box_buttons>.buy,
-.Our_Trendy_plants_box2>.box_text>.box_buttons>.buy{
+.Our_Trendy_plants_box2>.box_text>.box_buttons>.buy {
     padding: 15px 35px;
     font-size: 24px;
     color: #ffffff;
@@ -495,68 +506,81 @@ nav>.buttons>.bag {
     border: 1px solid #ffffff;
     border-radius: 20px;
 }
+
 .Our_Trendy_plants_box>.box_text>.box_buttons>.bag,
-.Our_Trendy_plants_box2>.box_text>.box_buttons>.bag{
+.Our_Trendy_plants_box2>.box_text>.box_buttons>.bag {
     font-size: 24px;
     padding: 15px;
     color: #ffffff;
     background-color: transparent;
     border: 1px solid #ffffff;
-    border-radius:50%;
+    border-radius: 50%;
     flex-shrink: 0;
-    }
+}
 
-.Our_Trendy_plants_box2{
+.Our_Trendy_plants_box2 {
     margin-top: 180px;
     flex-direction: row-reverse;
 }
-.Our_Trendy_plants_box2>.box_img{
+
+.Our_Trendy_plants_box2>.box_img {
     position: relative;
 }
-.Our_Trendy_plants_box2>.box_img>img{
-    position: absolute;
-    width: 400px;
+
+.Our_Trendy_plants_box2>.box_img>img {
     top: -130px;
+    width: 400px;
     right: 100px;
+    position: relative;
 }
-.Our_Trendy_plants_box2>.box_text{
+
+.Our_Trendy_plants_box2>.box_text {
     margin-top: 128px;
     margin-bottom: 128px;
-    margin-left: 152px;
+    margin-left: 150px;
     width: 621px;
 }
+
 /* #endregion Our_Trendy_plants */
-.Our_Top_Selling{
-display: flex;
-flex-direction: column;
-align-items: center;
+
+/* #region Our_Top_Selling */
+.Our_Top_Selling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 200px;
 }
-.Our_Top_Selling>div{
+
+.Our_Top_Selling>div {
     position: relative;
-    
+
 }
-.Our_Top_Selling>div>h2{
+
+.Our_Top_Selling>div>h2 {
     font-size: 55px;
     color: #FFFFFF;
     margin-top: 0;
     font-weight: bold;
     margin: 0;
 }
-.Our_Top_Selling>div>img{
+
+.Our_Top_Selling>div>img {
     position: absolute;
 }
-.Our_Top_Selling>div>.abs_1{
+
+.Our_Top_Selling>div>.abs_1 {
     top: 0;
     right: -20px;
 }
-.Our_Top_Selling>div>.abs_2{
+
+.Our_Top_Selling>div>.abs_2 {
     bottom: -12px;
     left: -20px;
 }
-.Our_Top_Selling>.products{
+
+.Our_Top_Selling>.products {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -565,70 +589,457 @@ align-items: center;
     gap: 19px;
     margin-top: 184px;
 }
-.Our_Top_Selling>.products>.product{
+
+.Our_Top_Selling>.products>.product {
+    width: 512px;
+    height: 600px;
+    margin-bottom: 159px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 512px;
-    height: 640px;
     border-radius: 80px;
     border: 1px solid #ffffff;
     background-color: #ffffff10;
     backdrop-filter: blur(5px);
-    margin-bottom: 159px;
 }
-    .Our_Top_Selling>.products>.product>img{
-        position: absolute;
-        top: -150px;
-        /* width: 40px; */
-    }
-    .Our_Top_Selling>.products>.product>h3{
-        margin-top: 300px;
-        margin-bottom: 36px;
-        font-size: 38px;
-        color: #FFFFFF;
-        font-weight: bold;
-    }
-    .Our_Top_Selling>.products>.product>p{
-        font-size: 24px;
-        width: 70%;
-        color: #FFFFFF;
-        margin: 0;
-    }
-    .Our_Top_Selling>.products>.product>.box_buttons{
 
-        margin-top: 31px;
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
+.Our_Top_Selling>.products>.product>img {
+    position: absolute;
+    top: -150px;
+}
+
+.Our_Top_Selling>.products>.product>h3 {
+    margin-bottom: 26px;
+    font-size: 38px;
+    margin-top: 200px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.Our_Top_Selling>.products>.product>p {
+    font-size: 24px;
+    width: 70%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.Our_Top_Selling>.products>.product>.box_buttons {
+
+    margin-top: 31px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Our_Top_Selling>.products>.product>.box_buttons>span {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Our_Top_Selling>.products>.product>.box_buttons>.bag {
+    font-size: 30px;
+    padding: 13px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* #endregion Our_Top_Selling */
+
+/* #region Customer Review  */
+.Customer_Review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Customer_Review>.Customer_Review_titel {
+    position: relative;
+}
+
+.Customer_Review>.Customer_Review_titel>h2 {
+    font-size: 55px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.Customer_Review>.Customer_Review_titel>img {
+    position: absolute;
+}
+
+.Customer_Review>.Customer_Review_titel>.abs_1 {
+    top: 0;
+    right: -20px;
+}
+
+.Customer_Review>.Customer_Review_titel>.abs_2 {
+    bottom: -15px;
+    left: -20px;
+}
+
+.Customer_Review>.Customer_Review_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin-top: 184px;
+}
+
+.Customer_Review>.Customer_Review_box>.box {
+    width: 512px;
+    height: 414px;
+    background-image: url("../imgs/contenr.png");
+    background-size: cover;
+    padding: 20px;
+}
+
+.Customer_Review>.Customer_Review_box>.box>.user {
+    display: flex;
+    margin-top: 61px;
+    margin-left: 40px;
+}
+
+.Customer_Review>.Customer_Review_box>.box>.user>img {
+    width: 71px;
+    height: 71px;
+}
+
+.Customer_Review>.Customer_Review_box>.box>.user>.user_details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+
+.Customer_Review>.Customer_Review_box>.box>.user>.user_details>h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font: optional;
+    margin-bottom: 5px;
+}
+
+.Customer_Review>.Customer_Review_box>.box>.user>.user_details>img {
+    width: 98px;
+    height: 15px;
+}
+
+.Customer_Review>.Customer_Review_box>.box>.comment>p {
+    margin-left: 40px;
+    font-size: 21px;
+    color: #ffffff;
+    margin-top: 53px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+
+
+/* #endregion Customer Review  */
+
+/* #region Swiper  */
+.Swiper_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+
+.swiper_titel {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.swiper_titel>h2 {
+    font-size: 55px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.swiper_titel>img {
+    position: absolute;
+}
+
+.swiper_titel>.abs_1 {
+    top: 5px;
+    right: -15px;
+}
+
+.swiper_titel>.abs_2 {
+    bottom: -15px;
+    left: -15px;
+}
+
+.swiper {
+    width: 100%;
+    height: 755px;
+    margin-top: 150px;
+    overflow: hidden;
+}
+
+.swiper-wrapper {}
+
+.swiper-slide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff10;
+    backdrop-filter: blur(5px);
+    border-radius: 100px;
+}
+
+.swiper-slide>.img_swiper>img {
+    height: 730px;
+    width: auto;
+
+}
+
+.swiper-slide>.text_swiper {
+    width: 678px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.swiper-slide>.text_swiper>h3 {
+    font-size: 38px;
+    margin-bottom: 47px;
+    font-weight: bold;
+    color: #ffffff;
+    /* width: 90%; */
+}
+
+.swiper-slide>.text_swiper>p {
+    margin-bottom: 47px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    /* width: 70%; */
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper {
+    width: 678px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>button {
+    padding: 15px 35px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>div {
+    position: relative;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>div>.swiper-button-next {
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>div>.swiper-button-prev {
+    position: absolute;
+    right: 0;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>div>.num {
+    display: flex;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>div>.num>p {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>div>.num>.num_of_slide {
+    font-size: 35px;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>div>.num>.num_of_all_slide {
+    margin: 5px;
+}
+
+.swiper-pagination_continer {
+    position: relative;
+    height: 70px;
+    width: 100%;
+}
+
+.swiper-pagination {
+    bottom: 0px !important;
+    position: absolute;
+}
+
+.swiper-pagination-bullet {
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* #endregion Swiper  */
+
+
+/* #region Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(5px);
+    margin-top: 50px;
+}
+
+.footer .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .footer-left .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .footer-left .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer .footer-left .logo span {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer .footer-left p {
+    color: #FFFFFF;
+    max-width: 300px;
+    line-height: 1.6;
+}
+
+.footer .quick-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .quick-links h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .quick-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer .quick-links ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.footer .quick-links ul li a:hover {
+    opacity: 0.8;
+}
+
+.footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .newsletter h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.footer .newsletter .subscribe-form {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .newsletter .subscribe-form input {
+    padding: 10px 15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background: transparent;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.footer .newsletter .subscribe-form input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .newsletter .subscribe-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #FFFFFF;
+    color: #1E3932;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.footer .newsletter .subscribe-form button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 30px;
     }
-    .Our_Top_Selling>.products>.product>.box_buttons>span{
-        font-size: 38px;
-        color: #FFFFFF;
-        font-weight: bold;
-        margin: 0;
-    }
-    .Our_Top_Selling>.products>.product>.box_buttons>.bag{
-        font-size: 30px;
-        padding: 13px;
-        background-color: transparent;
-        color: #ffffff;
-        border: 1px solid #ffffff;
+
+    .footer .footer-left p {
+        max-width: 100%;
     }
 
-
-
-@media (max-width: 1300px) {
-
-    /* body{
-        display: none;
-    } */
-    img {
-        /* display: none; */
+    .footer .newsletter .subscribe-form {
+        flex-direction: column;
     }
+}
 
+/* #endregion Footer */
+
+/* #endregion footer */
+
+@media (min-width: 993px) and (max-width: 1300px) {
     /* #region header */
+    
     .main_header {
         margin-top: 30px;
     }
@@ -661,7 +1072,8 @@ align-items: center;
 
     .main_header>.text>.comments {
         width: 300px;
-        height: 150px;
+        height: 190px;
+        margin-top: 30px
     }
 
     .main_header>.text>.comments>.comment_user>div>h3 {}
@@ -709,17 +1121,131 @@ align-items: center;
         padding: 10px 30px;
         font-size: 20px;
     }
-}
 
-@media (max-width: 992px) {
-    body {
-        /* display: none; */
+    /* #endregion header */
+    /* #region Our_Trendy_plants */
+    .Our_Trendy_plants_box,
+    .Our_Trendy_plants_box2 {
+        width: 100%;
+        height: 300px;
     }
 
+    .Our_Trendy_plants_box>.box_img>img {
+        top: -130px;
+        width: 400px;
+    }
+
+    .Our_Trendy_plants_box>.box_text {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin: 0;
+        margin-right: 40px;
+    }
+
+    .Our_Trendy_plants_box>.box_text>h3,
+    .Our_Trendy_plants_box2>.box_text>h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .Our_Trendy_plants_box>.box_text>span,
+    .Our_Trendy_plants_box2>.box_text>span {
+        font-size: 35px;
+    }
+
+    .Our_Trendy_plants_box>.box_text>p,
+    .Our_Trendy_plants_box2>.box_text>p {
+        font-size: 15px;
+    }
+
+    .Our_Trendy_plants_box2>.box_img>img {
+        width: 250px;
+        top: -130px;
+        right: 100px;
+    }
+
+    .Our_Trendy_plants_box2>.box_text {
+        /* margin-left: 130px; */
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .Our_Trendy_plants_box>.box_text>.box_buttons,
+.Our_Trendy_plants_box2>.box_text>.box_buttons {
+    margin-top: 15px;
+}
+    /* #endregion Our_Trendy_plants */
+    /* #region Our_Top_Selling */
+    .Our_Top_Selling>.products>.product {
+        width: 412px;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+
+    .Our_Top_Selling>.products>.product>img {
+        top: -100px;
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+
+    }
+    .Our_Top_Selling>.products>.product>h3 {
+    margin-bottom: 20px;
+}
+.Our_Top_Selling>.products>.product>p {
+    font-size: 20px;
+    width: 90%;
+}
+.Our_Top_Selling>.products>.product>.box_buttons {
+
+    margin-top: 20px;
+}
+    /* #endregion Our_Top_Selling */
+    /* #region Swiper */
+    .swiper {
+    height: 550px;
+    }
+    .swiper-slide>.img_swiper>img {
+        height: 430px;
+    }
+    .swiper-slide>.text_swiper {
+    width: 578px;
+    }
+    
+    .swiper-slide>.text_swiper>p {
+    margin-bottom: 10px;
+    font-size: 25px;
+    }
+    .swiper-slide>.text_swiper>.buttons_swiper {
+    width: 550px;
+}
+.swiper-pagination {
+    top: 0px !important;
+}
+/* #endregion Swiper */
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    /* #region header */
+    .main_header {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .main_header>.text>.comments {
+        display: none;
+    }
+
+    .main_header{
+        justify-content: center;
+       align-items: center;
+    }
     .main_header>.text>.description>h1 {
         font-size: 3em;
     }
-
+    
     .main_header>.text>.description>p {
         font-size: 0.8em;
     }
@@ -729,12 +1255,12 @@ align-items: center;
         font-size: 1.5em;
         font-weight: 300;
     }
-
+    
     .main_header>.text>.description>.buttons_header>div>.live-demo {
         font-size: 10px;
         padding: 10px;
     }
-
+    
     .main_header>.text>.description>.buttons_header>div>span {
         font-size: 15px;
         font-weight: 300;
@@ -745,27 +1271,84 @@ align-items: center;
         left: 170px;
         top: 10px;
         font-size: 25px;
-
+        
     }
-
+    
     .main_header>.main_card>div>.title {
         font-size: 20px
     }
-
+    
     .main_header>.main_card>div>.subtitle>p {
         margin-top: 10px;
         font-size: 25px;
     }
+    /* #endregion header */
+    /* #region Our_Trendy_plants */
+    .Our_Trendy_plants_box>.box_img>img {
+        top: -50px;
+}
+.Our_Trendy_plants_box2>.box_img>img {
+    top: -50px;
+}
+.Our_Trendy_plants_box2>.box_text {
+    margin-left: 80px;
+ }
+ .Our_Trendy_plants_box2>.box_img>img {
+        width: 250px;
+        top: -80px;
+        right: 50px;
+    }
+    .Our_Trendy_plants_box2>.box_text>p {
+        width: 90%;
+    }
+    /* #endregion Our_Trendy_plants */
+    /* #region Swiper */
+    .swiper {
+        height: 400px;
+    }
+    .swiper-slide>.img_swiper>img {
+        height: 350px;
+    }
+    .swiper-slide>.text_swiper {
+    width: 60%;
+    }
+    .swiper-slide>.text_swiper>h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 90%;
+    }
+    .swiper-slide>.text_swiper>p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    }
+    .swiper-slide>.text_swiper>.buttons_swiper {
+    width: 378px;
+    }
+    .swiper-slide>.text_swiper>.buttons_swiper>div>.num>p {
+    font-size: 15px;
 }
 
-@media (max-width: 768px) {
+.swiper-slide>.text_swiper>.buttons_swiper>div>.num>.num_of_slide {
+    font-size: 25px;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>div>.num>.num_of_all_slide {
+    margin: 10px;
+}
+
+.swiper-slide>.text_swiper>.buttons_swiper>button {
+    padding: 10px 30px;
+    font-size: 20px;
+    
+}
+/* #endregion Swiper */
+}
+@media (max-width: 767px) {
     body {
         padding: 5px;
     }
 
-    /* .main_header{
-        display: none
-    } */
+    
     nav>.links {
         display: none;
     }
@@ -939,6 +1522,3 @@ align-items: center;
         top: -90px;
     }
 }
-
-
-/* #endregion header */
