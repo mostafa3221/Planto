@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+<<<<<<< HEAD
 button {
     cursor: pointer;
 }
@@ -28,11 +29,22 @@ header {
 }
 
 /* #region navigation */
+=======
+body {
+    background-image: url('../imgs/background.png');
+    padding:  0 56px 0 56px;
+}
+
+>>>>>>> 6f1a2ed ()
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     height: 45px;
+=======
+    height: 50px;
+>>>>>>> 6f1a2ed ()
     width: 100%;
 }
 
@@ -146,6 +158,7 @@ nav>.buttons>.bag {
     font-family: 'Inter', sans-serif;
     background-color: transparent;
     border: none;
+<<<<<<< HEAD
 }
 
 /* #endregion */
@@ -942,3 +955,6 @@ align-items: center;
 
 
 /* #endregion header */
+=======
+}
+>>>>>>> 6f1a2ed ()
