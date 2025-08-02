@@ -1142,6 +1142,8 @@ nav>.buttons>.bag {
 @media (max-width: 767px) {
     body {
         padding: 5px;
+
+        display: none;
     }
 
     /* #region header */
