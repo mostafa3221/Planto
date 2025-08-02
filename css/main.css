@@ -1142,8 +1142,6 @@ nav>.buttons>.bag {
 @media (max-width: 767px) {
     body {
         padding: 5px;
-
-        display: none;
     }
 
     /* #region header */
@@ -1359,15 +1357,15 @@ nav>.buttons>.bag {
 
     .Our_Trendy_plants_box>.box_img>img {
         /* position: relative; */
-        top: -150px;
-        height: 250px;
+        top: -180px;
+        height: 200px;
         /* width: auto; */
     }
 
     .Our_Trendy_plants_box2>.box_img>img {
-        top: -150px;
+        top: -180px;
         right: calc(50% - 75px);
-        height: 250px;
+        height: 200px;
         width: auto;
     }
 
