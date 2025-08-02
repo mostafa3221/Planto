@@ -1357,13 +1357,13 @@ nav>.buttons>.bag {
 
     .Our_Trendy_plants_box>.box_img>img {
         /* position: relative; */
-        top: -180px;
+        top: -150px;
         height: 200px;
         /* width: auto; */
     }
 
     .Our_Trendy_plants_box2>.box_img>img {
-        top: -180px;
+        top: -150px;
         right: calc(50% - 75px);
         height: 200px;
         width: auto;
